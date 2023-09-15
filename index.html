@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matrimony Registration</title>
+</head>
+<div>
+<body>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+    /* Apply basic styling to the form */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background1.jpg'); /* Replace 'background.jpg' with your image file name */
+    background-size: cover; 
+        
+    
+    
+    
+}
+    text-align: center;
+}
+
+h1 {
+    color: #d18181;
+}
+
+form {
+    
+    
+    }
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style form elements */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ecc6c6;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: #e6a1a1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+</style>
+    <h1>Matrimony Registration Form</h1>
+    <form action="process_registration.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" required><br>
+       
+        <label for="age">Age:</label>
+        <input type="number" name="age" required><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female<br>
+
+        <label for="date">Date of  birth:</label>
+        <input type="date" name="dob" required><br>
+
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br>
+    
+        <label for="tel">Phone:</label>
+        <input type="tel" name="phone" required><br>
+
+        <label for="religion">Religion:</label>
+        <select name="religion" required>
+            <option value="hindu">Hindu</option>
+            <option value="muslim">Muslim</option>
+            <option value="christian">Christian</option>
+            <option value="sikh">Sikh</option>
+            <option value="other">Other</option>
+            <br>
+            <p>
+
+            <label for="caste">Caste:</label>
+            <input type="text" name="caste"><br></p>
+
+            <label for="sub-caste">Sub-caste:</label>
+            <input type="text" name=" Sub-caste"><br>
+
+            <label for="education">Education:</label>
+            <input type="text" name="education"><br>
+
+
+        
+            <label for="occupation">Email:</label>
+        <input type="text" name="Occupation"><br>
+
+        <label for="state">State:</label>
+        <input type="text" name="state"><br>
+
+        <label for="location">Location:</label> 
+        <input type="text" name="location"><br>
+         
+        <label for="about_me">About me</label>
+        <textarea name="about_me"></textarea><br>
+
+        <label for="about_your_family">About_your_family:</label>
+        <textarea name="about_your_family"></textarea><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br>
+
+        <label for=" password"> Confrim password:</label>
+        <input type="password" name=" Confirm password" required><br>
+
+        <label for="checkbox">terms and terms_and_conditions:</label>
+        <input type="checkbox" name="terms_and_conditions" required><p>
+            1. Acceptance of Terms
+By using our matrimony website ("Website"), you agree to comply with and be bound by these Terms and Conditions of Use ("Terms"). If you do not agree to these Terms, please do not use our Website.
+<br>
+2. Eligibility
+You must be at least 18 years old to use our Website. By using the Website, you confirm that you are of legal age to form a binding contract and meet our eligibility criteria.
+<br>
+3. Registration and User Accounts
+
+You are responsible for maintaining the confidentiality of your account credentials.
+You agree to provide accurate and up-to-date information during the registration process.
+We reserve the right to terminate accounts that violate these Terms or for any other reason.
+<br>
+4. Privacy
+Your use of the Website is also governed by our Privacy Policy. Please review our Privacy Policy for information on how we collect, use, and disclose your personal information.
+<br>
+5. User Content
+
+You are solely responsible for the content you post on the Website, including text, photos, and any other materials.
+You agree not to post content that is offensive, fraudulent, or violates any applicable laws or regulations.
+<br>
+6. Website Usage
+
+You agree not to use our Website for any illegal or unauthorized purpose.
+You may not use our Website to engage in any form of harassment, spamming, or abusive behavior towards other users.
+<br>
+7. Termination
+We reserve the right to suspend or terminate your access to the Website for any violation of these Terms or for any other reason.
+<br>
+
+8. Disclaimers
+
+The Website is provided "as is" and without any warranties or guarantees of any kind.
+We do not endorse, verify, or guarantee the accuracy of user-generated content.
+<br>
+9. Limitation of Liability
+We are not liable for any direct, indirect, incidental, special, or consequential damages arising from your use of the Website or any interactions with other users.
+<br>
+10. Changes to Terms
+We may update or modify these Terms at any time, and your continued use of the Website constitutes your acceptance of the revised Terms.
+<br>
+
+11. Governing Law
+These Terms are governed by and construed in accordance with the laws of [Your Jurisdiction].
+<br>
+
+12. Contact Information
+If you have any questions or concerns about these Terms, please contact us at [Your Contact Information].<br>
+        </p>
+
+
+        <input type="submit" value="Register">
+        <input type="submit" value="Submit Form">
+    </form>
+
+
+
+    </div>
+</body>
+</html>
+
